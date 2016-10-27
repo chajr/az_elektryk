@@ -2,5 +2,22 @@ body {
     background-color: #81af4e;
     background-position: top;
     background-repeat: repeat-x;
-    background-image: url(../elements/background_top.png);
+    background-image: url(../elements/background.png);
+}
+
+#bulb {
+    background: url(../elements/bulb.jpg) top left;
+    float: left;
+    width: 390px;
+    height: 465px;
+}
+
+#main-block {
+
+}
+
+.width-960 {
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
 }
