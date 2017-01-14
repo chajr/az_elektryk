@@ -21,3 +21,8 @@ body {
     position: relative;
     width: 960px;
 }
+
+#map{
+    width: 600px;
+    height: 360px;
+}
