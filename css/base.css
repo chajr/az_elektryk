@@ -58,7 +58,7 @@ body {
 }
 
 #description {
-    color: #B6D39F;
+    color: #c8e5b0;
     text-shadow: -1px 0 #294A1A, 0 1px #294A1A, 1px 0 #294A1A, 0 -1px #294A1A;
 }
 
@@ -93,4 +93,36 @@ footer a {
     color: #133B0E;
     padding-top:10px;
     border-radius: 15px 15px 0 0;
+}
+
+.common-title {
+    color: #c8e5b0;
+    text-shadow: 3px 3px 2px #294A1A;
+}
+
+#main-content address mark {
+    background: none;
+    text-decoration: underline;
+    color: #294A1A;
+    font-size: 30px;
+    margin-left:20px;
+}
+
+#main-content address {
+    margin-bottom: 30px;
+}
+
+#main-content address p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 15px 0 10px 25px;
+}
+
+#main-content address p.mail {
+    color: #294A1A;
+}
+
+#main-content address p.mail a {
+    color: #fff;
 }
