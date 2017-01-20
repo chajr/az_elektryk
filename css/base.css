@@ -95,6 +95,10 @@ footer a {
     border-radius: 15px 15px 0 0;
 }
 
+footer a:hover {
+    color: #133B0E;
+}
+
 .common-title {
     color: #c8e5b0;
     text-shadow: 3px 3px 2px #294A1A;
@@ -125,4 +129,35 @@ footer a {
 
 #main-content address p.mail a {
     color: #fff;
+}
+
+.product-block {
+    width: 120px;
+    height: 180px;
+    border: 1px solid #456923;
+    background-color: #9bc56e;
+    margin-right: 40px;
+    display: inline-block;
+    position: relative;
+}
+
+.product-block:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#main-content .product-block header {
+    display: block;
+    width: 118px;
+    height: 70px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    font-size: 24px;
+    color: #456923;
+}
+
+.medium-block {
+    width: 600px;
+    margin: 0 auto;
 }
