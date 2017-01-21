@@ -131,7 +131,11 @@ footer a:hover {
     color: #fff;
 }
 
-.product-block {
+#main-content .product-block:nth-child(4n+4) {
+    margin-right: 0;
+}
+
+#main-content .product-block {
     width: 120px;
     height: 180px;
     border: 1px solid #456923;
@@ -141,9 +145,14 @@ footer a:hover {
     position: relative;
 }
 
-.product-block:hover {
+#main-content .product-block:hover {
     background-color: #fff;
     cursor: pointer;
+}
+
+#main-content .product-block:hover header {
+    background-color: #9bc56e;
+    color: #fff;
 }
 
 #main-content .product-block header {
@@ -153,11 +162,14 @@ footer a:hover {
     background-color: #fff;
     position: absolute;
     bottom: 0;
-    font-size: 24px;
+    font-size: 20px;
     color: #456923;
+    text-shadow: none;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .medium-block {
-    width: 600px;
+    width: 612px;
     margin: 0 auto;
 }
