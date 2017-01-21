@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/js-image-slider.css">
         <link rel="stylesheet" href="css/base.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -42,7 +43,9 @@
                         zamek dziś z drzewa, lecz nim i jąkał się na folwark dążył po imieniu.
                     </p>
                 </section>
+
                 <div class="separator separator-1"></div>
+
                 <section id="offer" class="medium-block">
                     <div class="product-block">
                         <div>
@@ -117,11 +120,71 @@
                         <header></header>
                     </div>
                 </section>
+
                 <div class="separator separator-2"></div>
-                <section id="realisation"></section>
+
+                <section id="realisation">
+                    <div id="sliderFrame">
+                        <div id="slider">
+                            <a href="http://www.menucool.com/jquery-slider" target="_blank">
+                                <img src="img/image-slider-1.jpg" alt="Welcome to jQuery Slider" />
+                            </a>
+                            <a class="lazyImage"
+                               href="img/image-slider-2.jpg"
+                               title="Pure Javascript. No jQuery. No Flash."
+                            >
+                                Pure JavaScript
+                            </a>
+                            <a href="http://www.menucool.com/javascript-image-slider">
+                                <b data-src="images/image-slider-3.jpg">Image Slider</b>
+                            </a>
+                            <a class="lazyImage" href="img/image-slider-4.jpg" title="">Slide 4</a>
+                        </div>
+
+                        <div id="thumbs">
+                            <div class="thumb">
+                                <div class="frame"><img src="img/thumb1.jpg" /></div>
+                                <div class="thumb-content">
+                                    <p>HTML Content</p>
+                                    Thumbnails allows any HTML content
+                                </div>
+                                <div style="clear:both;"></div>
+                            </div>
+                            <div class="thumb">
+                                <div class="frame"><img src="img/thumb2.jpg" /></div>
+                                <div class="thumb-content">
+                                    <p>Customizable</p>
+                                    Thumbnail style is customizable
+                                </div>
+                                <div style="clear:both;"></div>
+                            </div>
+                            <div class="thumb">
+                                <div class="frame"><img src="img/thumb3.jpg" /></div>
+                                <div class="thumb-content">
+                                    <p>Variety of Layouts</p>
+                                    Just a CSS tweak.
+                                </div>
+                                <div style="clear:both;"></div>
+                            </div>
+                            <div class="thumb">
+                                <div class="frame"><img src="img/thumb4.jpg" /></div>
+                                <div class="thumb-content">
+                                    <p>Integration</p>
+                                    Built-in functions for the thumbnails
+                                </div>
+                                <div style="clear:both;"></div>
+                            </div>
+                        </div>
+                        <div style="clear:both;height:0;"></div>
+                    </div>
+                </section>
+
                 <div class="separator separator-2"></div>
+
                 <figure id="map"></figure>
+
                 <div class="separator separator-2"></div>
+
                 <address  class="small-block">
                     <h4 class="common-title">Kontakt</h4>
                     <mark>600 500 300</mark>
@@ -147,6 +210,7 @@
         ></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/plugins.js"></script>
+        <script src="js/js-image-slider.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
