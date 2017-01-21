@@ -4,14 +4,12 @@
     box-sizing: content-box;
 }
 
-#sliderFrame 
-{
+#sliderFrame {
     width: 600px;
     margin:0 auto; /*center-aligned*/
     padding:10px;
-    box-shadow: 0 0 5px #BBB;
-    border:1px solid #CCC;
-    background-color:#FFF;
+    border: 1px solid #456923;
+    background-color: #9bc56e;
 }
 
 #slider, #slider .sliderInner {
@@ -32,11 +30,11 @@
     z-index:2;
     cursor:pointer;
     position:absolute;
-    top:0px;left:0px;border:0;padding:0;margin:0;
+    top:0;left:0;border:0;padding:0;margin:0;
     width:100%;height:100%;
 }
 #slider .video {
-    background:transparent url(video.png) no-repeat 50% 50%;
+    /*background:transparent url(video.png) no-repeat 50% 50%;*/
 }
 
 /* Caption styles */
@@ -88,17 +86,21 @@
     margin-left:10px;
     width:230px;
     font:normal 11px/13px Arial;
-    border-top:1px solid #CCC;
     color:#666;
 }
 #thumbs .thumb 
 {
-    border:1px solid #CCC;
-    border-top:1px solid #FFF;
+    border: 1px solid #456923;
+    background-color: #fff;
     padding:11px 8px;
-    background:#EEE;
     cursor:pointer;
+    margin-bottom: 3px;
 }
+
+#thumbs .thumb:hover {
+    background-color: rgb(117, 193, 75);
+}
+
 #thumbs .thumb-on 
 {
     background:#FFF;
@@ -106,7 +108,17 @@
 
 #thumbs img{border:1px solid #DDD; cursor:pointer; width:70px; height:44px;}
 
-#thumbs .frame {float:left;padding:2px;border:1px solid #CCC;background:white;border-radius:3px;box-shadow:0 0 3px #BBB;font-size:0;line-height:0;}
+#thumbs .frame {
+    float: left;
+    padding: 2px;
+    border: 1px solid #CCC;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #BBB;
+    font-size: 0;
+    line-height: 0;
+}
+
 #thumbs .thumb-content {float:left;width:110px;padding-left:18px;}
 
 /* Captions in #thumbs .thumb-content */
