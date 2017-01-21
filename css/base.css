@@ -145,6 +145,24 @@ footer a:hover {
     position: relative;
 }
 
+#main-content .product-block div {
+    width: 118px;
+    height: 108px;
+    position: absolute;
+}
+
+#main-content .product-block div i {
+    text-align: center;
+    margin-top:30px;
+    font-size: 40px;
+    width: 100%;
+    color: #fff;
+}
+
+#main-content .product-block:hover div i {
+    color: #456923;
+}
+
 #main-content .product-block:hover {
     background-color: #fff;
     cursor: pointer;
@@ -162,7 +180,7 @@ footer a:hover {
     background-color: #fff;
     position: absolute;
     bottom: 0;
-    font-size: 20px;
+    font-size: 16px;
     color: #456923;
     text-shadow: none;
     text-align: center;
