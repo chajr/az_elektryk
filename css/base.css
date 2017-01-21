@@ -23,7 +23,7 @@ body {
 }
 
 #map {
-    margin: 0 auto;
+    margin: 0 auto 30px auto;
     border: 1px dashed #fff;
     width: 600px;
     height: 360px;
