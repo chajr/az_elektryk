@@ -185,3 +185,27 @@ footer a:hover {
     width: 612px;
     margin: 0 auto;
 }
+
+.service {
+    width: 100%;
+    height: 115px;
+    padding: 6px;
+    margin-bottom: 10px;
+    background-color: #9bc56e;
+    border: 1px solid #456923;
+    display: block;
+}
+
+.service img {
+    border: 1px dashed #509c52;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.service h4 {
+    float: left;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
